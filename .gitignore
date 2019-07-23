@@ -1,4 +1,5 @@
 # ignore everything in the root except the "wp-content" directory.
+/*
 !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
@@ -21,3 +22,32 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+.gitmodules
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!README.md
+!CHANGELOG.md
+!composer.json
+
+# track favicon files, if they exist
+!android-chrome-*.png
+!apple-touch-icon*.png
+!browserconfig.xml
+!favicon*.png
+!favicon*.ico
+!manifest.json
+!mstile-*.png
+!safari-pinned-tab.svg
+!site.webmanifest
+
+# track these mu-plugins, plugins, and themes
+# add your own entries here
+!wp-content/mu-plugins/example-mu-plugin/
+!wp-content/plugins/example-plugin/
+!wp-content/themes/example-theme/
