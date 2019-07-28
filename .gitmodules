@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/cyr2lat/vendor/a5hleyrich/wp-background-processing"]
+	path = wp-content/plugins/cyr2lat/vendor/a5hleyrich/wp-background-processing
+	url = https://github.com/kagg-design/wp-background-processing.git
